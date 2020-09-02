@@ -1,22 +1,17 @@
-# Assignment3 
-### Autore: Fabio Cimmino
+# school-management-system-with-JAVA-Persistence-API
 
 
-Per eseguire questo progetto bisogna creare un database MySQL denominato "**mydb**" 
-sulla porta localhost:3306. La verisione di MySQL Server è la 5.7.
-Nel file **persistence.xml** dovranno essere cambiati i valori di *user* e *password* in base
-alla propria configurazione.
+To run this project you need to create a MySQL database named "**mydb**" on the localhost port: 3306. The MySQL Server version is 5.7.
+In the **persistence.xml** file the values of *user* and *password* must be changed according to your configuration.
 
-Per importare il progetto seguire i seguenti passi:
-1. Scaricare il progetto dal repository gitLab
-2. Aprire Eclipse
-3. Selezionare **File -> import -> Existing Maven Projects**
-4. Selezionare il progetto scaricato
-5. Dopo aver importato il progetto, assicurarsi che l'impostazione **Compiler compilance level** è settata a 1.6
-   (**Project -> Properties -> Java Compiler -> Compiler compliance level**)
+To import the project follow the following steps:
+1. Download the project from the gitLab repository
+2. Open Eclipse
+3. Select **File -> import -> Existing Maven Projects**
+4. Select the downloaded project
+5. After importing the project, make sure that the **Compiler compilance level** setting is set to 1.6 (**Project -> Properties -> Java Compiler -> Compiler compliance level**)
 
-Nel caso in cui non si riesca ad eseguire i test del progetto per il seguente errore "*java compiler level does not match the version of the installed java project facet*",
-seguire i seguenti passi:
+In case you fail to run the project tests for the following error "*java compiler level does not match the version of the installed java project facet*", please follow the steps below:
 - Project -> Properties -> Project Facets
-- Settare la versione di "*Java*" a 1.6
+- Set the version of "*Java*" to 1.6
 
