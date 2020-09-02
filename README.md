@@ -6,7 +6,7 @@ Below is the UML diagram of the domain model:
 ![UML diagram](UML.PNG)
 
 
-##How to run it 
+## How to run it 
 
 To run this project you need to create a MySQL database named "**mydb**" on the localhost port: 3306. The MySQL Server version is 5.7.
 In the **persistence.xml** file the values of *user* and *password* must be changed according to your configuration.
