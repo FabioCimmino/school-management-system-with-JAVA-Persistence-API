@@ -3,7 +3,7 @@
 In this project I designed and built a system for the management of middle and high schools.  
 The framework I have decided to use to implement JAVA Persistence API is Eclipselink, while for the database I used MySQL. Maven was used for dependency management.  
 Below is the UML diagram of the domain model:  
-![UML diagram](UML.png)
+![UML diagram](UML.PNG)
 
 
 ##How to run it 
